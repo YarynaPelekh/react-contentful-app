@@ -1,21 +1,13 @@
 import "./App.css";
 
 import { useState, useEffect } from "react";
-import { Header } from "./components/Header";
-import { Book } from "./components/Book";
+import { Route, Routes } from "react-router-dom";
 
-// const query = `
-// {
-//   pageCollection {
-//     items {
-//       title
-//       logo {
-//         url
-//       }
-//     }
-//   }
-// }
-// `;
+import { Header } from "./components/Header";
+import { Navigation } from "./components/Navigation";
+import { AuthorsList } from "./components/AuthorsList";
+import { BooksList } from "./components/BooksList";
+
 const query = `{
   bookCollection{
     items {
@@ -66,12 +58,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="books-container">
-        {books &&
-          books.items.map((book) => (
-            <Book author={book.authorString} title={book.title} />
-          ))}
-      </div>
+      <Navigation />
+
+      <Routes>
+        <Route path="/books" element={<BooksList books={books} />} />
+        <Route path="/authors" element={<AuthorsList authors={books} />} />
+      </Routes>
     </div>
   );
 }
