@@ -16,7 +16,7 @@ code {
   width: 80vw;
   background-color: #eee;
   margin: auto;
-  height: 100vh;
+  height: 100%;
   padding: 1rem;
 }
 
@@ -43,27 +43,72 @@ ul {
 
 .link {
   padding: 0 2rem;
+  text-decoration: none;
+  color: blue;
 }
 
-.books-container {
+.link:visited {
+  color: darkblue;
+}
+
+.list-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
 
 .book {
+  grid-column: span 2;
   font-size: 1.2rem;
   background-color: #e8e8e8;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-radius: 0.5rem;
   box-shadow: 4px 4px 4px #ccc;
   margin-bottom: 2rem;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.book:nth-last-child(1):nth-child(odd) {
+  grid-column: 2 / span 2;
+}
+
+.leftSection {
+  width: 30%;
+}
+
+.rightSection {
+  width: 60%;
+  /* align-self: center; */
+}
+.bookImage {
+  width: 100%;
+}
+.textSection ul {
+  padding: 0.2rem 4rem;
+}
+
+.textSection li {
+  margin: 1rem 0;
 }
 
 .author {
   font-style: italic;
 }
+
+.bookList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bookList li {
+  text-align: left;
+}
+
 .title {
   font-weight: 500;
+  list-style-type: none;
 }
