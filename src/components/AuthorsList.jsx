@@ -27,7 +27,7 @@ export const AuthorsList = () => {
       return [...accumulator];
     }, []);
 
-  console.log("Authors list", authors);
+  // console.log("Authors list", authors);
 
   return (
     <div className="list-container">

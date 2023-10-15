@@ -1,0 +1,2010 @@
+{
+  "tags": [
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "27tCVFL9KRmgn1mjugny8Y",
+        "type": "Entry",
+        "createdAt": "2023-09-23T11:57:42.947Z",
+        "updatedAt": "2023-09-23T12:17:39.222Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2023-09-23T12:17:39.222Z",
+        "firstPublishedAt": "2023-09-23T12:17:39.222Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "First item"
+        },
+        "logo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2ClnDEBpwkn8sURlMziYOZ"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "3C181dCth6S488tijMmgWC",
+        "type": "Entry",
+        "createdAt": "2023-09-24T08:19:21.525Z",
+        "updatedAt": "2023-10-08T13:13:26.842Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 23,
+        "publishedAt": "2023-10-08T13:13:26.842Z",
+        "firstPublishedAt": "2023-09-24T08:20:51.898Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 12,
+        "version": 24,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "persona"
+          }
+        }
+      },
+      "fields": {
+        "firstName": {
+          "en-US": "Adam"
+        },
+        "lastName": {
+          "en-US": "Smith"
+        },
+        "photo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3Qb3WOi738nRyo86ifL3BT"
+            }
+          }
+        },
+        "pseudonym": {
+          "en-US": "Adam-Smith"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "5nhKXHPwJJdxsc9kt9xS8p",
+        "type": "Entry",
+        "createdAt": "2023-09-24T08:25:23.288Z",
+        "updatedAt": "2023-10-08T13:13:27.627Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 20,
+        "publishedAt": "2023-10-08T13:13:27.627Z",
+        "firstPublishedAt": "2023-09-24T08:25:47.666Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 21,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "persona"
+          }
+        }
+      },
+      "fields": {
+        "firstName": {
+          "en-US": "Eli"
+        },
+        "lastName": {
+          "en-US": "New"
+        },
+        "photo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "SnkALRmdFi09UADna9x1d"
+            }
+          }
+        },
+        "pseudonym": {
+          "en-US": "Eli-New"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "4VxrnRpuvSjYovJpI7Lz3V",
+        "type": "Entry",
+        "createdAt": "2023-10-02T13:30:59.793Z",
+        "updatedAt": "2023-10-08T14:40:14.471Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2023-10-08T14:40:14.471Z",
+        "firstPublishedAt": "2023-10-02T13:33:18.376Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "book"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Grudge Mountain"
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4gnNCeVTeTz5bwvx0acWW"
+            }
+          }
+        },
+        "photo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5JHoIJp6Jh6bBUVKG1lpWc"
+            }
+          }
+        },
+        "genre": {
+          "en-US": "Narrative"
+        },
+        "genre_ref": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "narrative"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "4gnNCeVTeTz5bwvx0acWW",
+        "type": "Entry",
+        "createdAt": "2023-10-02T13:31:08.555Z",
+        "updatedAt": "2023-10-08T13:13:28.455Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 21,
+        "publishedAt": "2023-10-08T13:13:28.455Z",
+        "firstPublishedAt": "2023-10-02T13:31:34.111Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 22,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "persona"
+          }
+        }
+      },
+      "fields": {
+        "firstName": {
+          "en-US": "Albert"
+        },
+        "lastName": {
+          "en-US": "Terhune"
+        },
+        "pseudonym": {
+          "en-US": "Albert-Terhune"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "6ER9OgWYNTpPWWfwMhi4Xl",
+        "type": "Entry",
+        "createdAt": "2023-10-02T13:36:28.823Z",
+        "updatedAt": "2023-10-08T14:40:15.915Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2023-10-08T14:40:15.915Z",
+        "firstPublishedAt": "2023-10-02T13:37:39.437Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "book"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Enter the Saint"
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "54laYTyS2uJV5SHDvPdpO6"
+            }
+          }
+        },
+        "photo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5VVmNTvtmSE3B4sMI40ySC"
+            }
+          }
+        },
+        "genre": {
+          "en-US": "Detective"
+        },
+        "genre_ref": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "detective"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "54laYTyS2uJV5SHDvPdpO6",
+        "type": "Entry",
+        "createdAt": "2023-10-02T13:36:36.715Z",
+        "updatedAt": "2023-10-08T13:13:29.187Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 18,
+        "publishedAt": "2023-10-08T13:13:29.187Z",
+        "firstPublishedAt": "2023-10-02T13:36:49.241Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 9,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "persona"
+          }
+        }
+      },
+      "fields": {
+        "firstName": {
+          "en-US": "Leslie "
+        },
+        "lastName": {
+          "en-US": "Charteris"
+        },
+        "pseudonym": {
+          "en-US": "Leslie-Charteris"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "3NexSc6JX30wOyeRQdnKhi",
+        "type": "Entry",
+        "createdAt": "2023-10-02T13:41:33.602Z",
+        "updatedAt": "2023-10-08T14:40:17.527Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2023-10-08T14:40:17.527Z",
+        "firstPublishedAt": "2023-10-02T13:42:44.821Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "book"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Kings Row"
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3O63p6rdY0mTVXdLyaneYl"
+            }
+          }
+        },
+        "photo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "n6qhRE9Ax6NxwxYGjZFta"
+            }
+          }
+        },
+        "genre": {
+          "en-US": "Novel"
+        },
+        "genre_ref": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "novel"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "3O63p6rdY0mTVXdLyaneYl",
+        "type": "Entry",
+        "createdAt": "2023-10-02T13:41:39.931Z",
+        "updatedAt": "2023-10-08T13:13:29.897Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 18,
+        "publishedAt": "2023-10-08T13:13:29.897Z",
+        "firstPublishedAt": "2023-10-02T13:41:48.610Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 9,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "persona"
+          }
+        }
+      },
+      "fields": {
+        "firstName": {
+          "en-US": "Henry "
+        },
+        "lastName": {
+          "en-US": "Bellamann"
+        },
+        "pseudonym": {
+          "en-US": "Henry-Bellamann"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "6wRCHSsfa273nMm59r80Tw",
+        "type": "Entry",
+        "createdAt": "2023-10-02T13:44:38.056Z",
+        "updatedAt": "2023-10-08T14:40:18.834Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2023-10-08T14:40:18.834Z",
+        "firstPublishedAt": "2023-10-02T13:46:03.980Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "book"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Wieland; and Memoirs of Carwin the biloquist"
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1k4vJ3mdEBnBx5U6JDpIFb"
+            }
+          }
+        },
+        "photo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5HPt8bYCsDh4lTq1jgteq8"
+            }
+          }
+        },
+        "genre": {
+          "en-US": "Memoires"
+        },
+        "genre_ref": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "memoires"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "1k4vJ3mdEBnBx5U6JDpIFb",
+        "type": "Entry",
+        "createdAt": "2023-10-02T13:44:54.920Z",
+        "updatedAt": "2023-10-08T13:13:30.577Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 21,
+        "publishedAt": "2023-10-08T13:13:30.577Z",
+        "firstPublishedAt": "2023-10-02T13:45:06.199Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 22,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "persona"
+          }
+        }
+      },
+      "fields": {
+        "firstName": {
+          "en-US": "Charles "
+        },
+        "lastName": {
+          "en-US": "Brown"
+        },
+        "pseudonym": {
+          "en-US": "Charles-Brown"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "s5LCjYc3ueszRw3vJj0sN",
+        "type": "Entry",
+        "createdAt": "2023-10-02T14:51:47.039Z",
+        "updatedAt": "2023-10-08T14:40:19.564Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2023-10-08T14:40:19.564Z",
+        "firstPublishedAt": "2023-10-02T14:53:04.446Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "book"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Alcuin"
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1k4vJ3mdEBnBx5U6JDpIFb"
+            }
+          }
+        },
+        "photo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4poN6hPZhC69obdKrCUkZ9"
+            }
+          }
+        },
+        "richText": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Published in",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "[New York]",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Edition Notes",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Includes bibliographical references.\n\"A Gehenna facsimile.\"GenreEarly works to 1800.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Classifications",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Dewey Decimal Class301.41/2Library of CongressPS1134 .A7 1970a",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The Physical Object",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Pagination103 p.Number of pages103",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "genre": {
+          "en-US": "Novel"
+        },
+        "genre_ref": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "novel"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "narrative",
+        "type": "Entry",
+        "createdAt": "2023-10-08T14:40:13.356Z",
+        "updatedAt": "2023-10-08T14:40:13.706Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-10-08T14:40:13.706Z",
+        "firstPublishedAt": "2023-10-08T14:40:13.706Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "genre"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Narrative"
+        },
+        "slug": {
+          "en-US": "narrative"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "detective",
+        "type": "Entry",
+        "createdAt": "2023-10-08T14:40:14.917Z",
+        "updatedAt": "2023-10-08T14:40:15.248Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-10-08T14:40:15.248Z",
+        "firstPublishedAt": "2023-10-08T14:40:15.248Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "genre"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Detective"
+        },
+        "slug": {
+          "en-US": "detective"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "novel",
+        "type": "Entry",
+        "createdAt": "2023-10-08T14:40:16.553Z",
+        "updatedAt": "2023-10-08T14:40:16.860Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-10-08T14:40:16.860Z",
+        "firstPublishedAt": "2023-10-08T14:40:16.860Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "genre"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Novel"
+        },
+        "slug": {
+          "en-US": "novel"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "memoires",
+        "type": "Entry",
+        "createdAt": "2023-10-08T14:40:17.881Z",
+        "updatedAt": "2023-10-08T14:40:18.183Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-10-08T14:40:18.183Z",
+        "firstPublishedAt": "2023-10-08T14:40:18.183Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "genre"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Memoires"
+        },
+        "slug": {
+          "en-US": "memoires"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "2ClnDEBpwkn8sURlMziYOZ",
+        "type": "Asset",
+        "createdAt": "2023-09-23T11:59:09.910Z",
+        "updatedAt": "2023-09-23T12:17:04.093Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-09-23T12:17:04.093Z",
+        "firstPublishedAt": "2023-09-23T12:17:04.093Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": " "
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lnflsi90e8vx/2ClnDEBpwkn8sURlMziYOZ/58ed6a1ccb70a22a17a0860f51db33b9/one.png",
+            "details": {
+              "size": 2172,
+              "image": {
+                "width": 225,
+                "height": 225
+              }
+            },
+            "fileName": "one.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "3Qb3WOi738nRyo86ifL3BT",
+        "type": "Asset",
+        "createdAt": "2023-09-24T08:44:50.937Z",
+        "updatedAt": "2023-09-24T09:08:12.005Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-24T09:08:12.005Z",
+        "firstPublishedAt": "2023-09-24T08:45:10.867Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "7084424"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lnflsi90e8vx/3Qb3WOi738nRyo86ifL3BT/64117a2e4bdd0ba12cba3c154677a941/7084424.png",
+            "details": {
+              "size": 24555,
+              "image": {
+                "width": 512,
+                "height": 512
+              }
+            },
+            "fileName": "7084424.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "SnkALRmdFi09UADna9x1d",
+        "type": "Asset",
+        "createdAt": "2023-09-24T08:45:28.268Z",
+        "updatedAt": "2023-09-24T08:45:35.853Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-24T08:45:35.853Z",
+        "firstPublishedAt": "2023-09-24T08:45:35.853Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "woman"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lnflsi90e8vx/SnkALRmdFi09UADna9x1d/c39ff6c9157222a96995c8efc7dab14c/woman.png",
+            "details": {
+              "size": 37206,
+              "image": {
+                "width": 512,
+                "height": 512
+              }
+            },
+            "fileName": "woman.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "5JHoIJp6Jh6bBUVKG1lpWc",
+        "type": "Asset",
+        "createdAt": "2023-10-02T13:32:17.866Z",
+        "updatedAt": "2023-10-02T13:33:08.800Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-10-02T13:33:08.800Z",
+        "firstPublishedAt": "2023-10-02T13:33:08.800Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Grudge Mountain"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lnflsi90e8vx/5JHoIJp6Jh6bBUVKG1lpWc/daf7b24b822e0d14ea2ce475caee9cd2/1463901-L.jpg",
+            "details": {
+              "size": 33446,
+              "image": {
+                "width": 312,
+                "height": 475
+              }
+            },
+            "fileName": "1463901-L.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "5VVmNTvtmSE3B4sMI40ySC",
+        "type": "Asset",
+        "createdAt": "2023-10-02T13:37:21.898Z",
+        "updatedAt": "2023-10-02T13:37:36.005Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-10-02T13:37:36.005Z",
+        "firstPublishedAt": "2023-10-02T13:37:36.005Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Enter the Saint"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lnflsi90e8vx/5VVmNTvtmSE3B4sMI40ySC/1d118053282aa833340152bf79847465/11627440-L.jpg",
+            "details": {
+              "size": 48016,
+              "image": {
+                "width": 303,
+                "height": 500
+              }
+            },
+            "fileName": "11627440-L.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "n6qhRE9Ax6NxwxYGjZFta",
+        "type": "Asset",
+        "createdAt": "2023-10-02T13:42:28.169Z",
+        "updatedAt": "2023-10-02T13:42:41.581Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-10-02T13:42:41.581Z",
+        "firstPublishedAt": "2023-10-02T13:42:41.581Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Kings Row"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lnflsi90e8vx/n6qhRE9Ax6NxwxYGjZFta/4ae1a94f9133dfbabb49ea195ace4cfb/6521181-L.jpg",
+            "details": {
+              "size": 13578,
+              "image": {
+                "width": 325,
+                "height": 500
+              }
+            },
+            "fileName": "6521181-L.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "5HPt8bYCsDh4lTq1jgteq8",
+        "type": "Asset",
+        "createdAt": "2023-10-02T13:45:27.787Z",
+        "updatedAt": "2023-10-02T13:45:51.425Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-10-02T13:45:51.425Z",
+        "firstPublishedAt": "2023-10-02T13:45:51.425Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Wieland; and Memoirs of Carwin the biloquist"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lnflsi90e8vx/5HPt8bYCsDh4lTq1jgteq8/4eb19a9821624dec3cd933129dc31f07/6536604-L.jpg",
+            "details": {
+              "size": 24974,
+              "image": {
+                "width": 322,
+                "height": 500
+              }
+            },
+            "fileName": "6536604-L.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lnflsi90e8vx"
+          }
+        },
+        "id": "4poN6hPZhC69obdKrCUkZ9",
+        "type": "Asset",
+        "createdAt": "2023-10-02T14:52:42.829Z",
+        "updatedAt": "2023-10-02T14:52:55.508Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-10-02T14:52:55.508Z",
+        "firstPublishedAt": "2023-10-02T14:52:55.508Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3g4Bw366a0LeAB7C6YQ9am"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Alcuin"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lnflsi90e8vx/4poN6hPZhC69obdKrCUkZ9/aec1033052928e57255f7252624357c8/0008056410-L.jpg",
+            "details": {
+              "size": 17531,
+              "image": {
+                "width": 286,
+                "height": 500
+              }
+            },
+            "fileName": "0008056410-L.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ]
+}

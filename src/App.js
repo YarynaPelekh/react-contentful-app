@@ -11,6 +11,10 @@ import { BooksList } from "./components/BooksList";
 
 import { LibraryContext } from "./components/LibraryContext";
 
+const API_Key = "lnflsi90e8vx";
+// const ENV = "master";
+const ENV = "dev";
+// pseudonym
 const query = `{
   bookCollection {
     items {
@@ -22,6 +26,7 @@ const query = `{
         ... on Persona {
           firstName
           lastName
+          
           photo {
             ... on Asset {
               contentType
@@ -41,38 +46,28 @@ const query = `{
     }
   }
 }`;
-// const query = `{
-//   bookCollection{
-//     items {
-//       title
-//       author{
-//         ... on Persona{
-//           firstName
-//           lastName
-//         }
-//       }
-
-//     }
-//   }
-// }`;
 
 function App() {
   const [books, setBooks] = useState(null);
 
   useEffect(() => {
     // window
-    fetch(`https://graphql.contentful.com/content/v1/spaces/lnflsi90e8vx/`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        // Authenticate the request
-        Authorization: "Bearer ER9ZMhqKlvvQPviTrsvEQw1_7GsZF32sUYivrOCFMkQ",
-      },
-      // send the GraphQL query
-      body: JSON.stringify({ query }),
-    })
+    fetch(
+      `https://graphql.contentful.com/content/v1/spaces/${API_Key}/environments/${ENV}/`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          // Authenticate the request
+          Authorization: "Bearer ER9ZMhqKlvvQPviTrsvEQw1_7GsZF32sUYivrOCFMkQ",
+        },
+        // send the GraphQL query
+        body: JSON.stringify({ query }),
+      }
+    )
       .then((response) => response.json())
       .then(({ data, errors }) => {
+        // console.log("get data", data);
         if (errors) {
           console.error(errors);
         }

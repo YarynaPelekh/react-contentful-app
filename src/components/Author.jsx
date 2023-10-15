@@ -8,7 +8,10 @@ export const Author = ({ author }) => {
 
   return (
     <div className="book">
-      <p className="leftSection author">{`${author.firstName} ${author.lastName}`}</p>
+      <div className="leftSection author">
+        <p>{`${author.firstName} ${author.lastName}`}</p>
+        <p>{author.pseudonym && `${author.pseudonym}`}</p>
+      </div>
       <ul className="rightSection bookList">
         {Object.values(books.items)
           .filter((item) => item.author.firstName === author.firstName)
