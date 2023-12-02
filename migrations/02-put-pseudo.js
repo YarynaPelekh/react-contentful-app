@@ -1,7 +1,6 @@
 module.exports = function (migration) {
   // Simplistic function deducing a pseudo from author name.
   const pseudoFromAuthor = (firstName, lastName) => {
-    // console.log('firstName + "-" + lastName', firstName + "-" + lastName);
     return firstName.trim() + "-" + lastName.trim();
   };
 
@@ -11,12 +10,6 @@ module.exports = function (migration) {
     from: ["firstName", "lastName"],
     to: ["pseudonym"],
     transformEntryForLocale: async (name, locale) => {
-      // console.log(
-      //   "firstName",
-      //   name.firstName[locale],
-      //   "lastName",
-      //   name.lastName[locale]
-      // );
       return {
         pseudonym: pseudoFromAuthor(
           name.firstName[locale],

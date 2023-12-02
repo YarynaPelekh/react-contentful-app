@@ -12,8 +12,8 @@ import { BooksList } from "./components/BooksList";
 import { LibraryContext } from "./components/LibraryContext";
 
 const API_Key = "lnflsi90e8vx";
-// const ENV = "master";
-const ENV = "dev";
+const ENV = "master";
+// const ENV = "dev";
 // pseudonym
 const query = `{
   bookCollection {
@@ -36,6 +36,7 @@ const query = `{
           }
         }
       }
+      genre
       photo {
         ... on Asset {
           contentType
@@ -47,10 +48,31 @@ const query = `{
   }
 }`;
 
+const withOverrides = (config = {}) => {
+  // /?overrides={'toggles':{'newView':true}}
+  // /?overrides={"toggles":{"newView":true}}
+
+  const overridesStr = new URLSearchParams(window.location.search).get(
+    "overrides"
+  );
+
+  console.log("overridesStr", overridesStr);
+
+  if (overridesStr) {
+    console.log("decodeURI(overridesStr)", decodeURI(overridesStr));
+    const overrides = JSON.parse(decodeURI(overridesStr));
+    console.log("overrides", overrides);
+    return Object.assign(config, overrides);
+  }
+  return config;
+};
+
 function App() {
   const [books, setBooks] = useState(null);
 
   useEffect(() => {
+    const config = withOverrides();
+    console.log("config", config);
     // window
     fetch(
       `https://graphql.contentful.com/content/v1/spaces/${API_Key}/environments/${ENV}/`,
@@ -67,7 +89,6 @@ function App() {
     )
       .then((response) => response.json())
       .then(({ data, errors }) => {
-        // console.log("get data", data);
         if (errors) {
           console.error(errors);
         }

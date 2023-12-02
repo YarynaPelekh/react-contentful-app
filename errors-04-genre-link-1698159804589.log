@@ -1,0 +1,88 @@
+BadRequest: {
+  "status": 400,
+  "statusText": "Bad Request",
+  "message": "Invalid resource id",
+  "details": {},
+  "request": {
+    "url": "spaces/lnflsi90e8vx/environments/dev/entries/early works to 1800.",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/2.8.27; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.19.0; os Windows/v16.19.0;",
+      "CF-Sequence": "cc29ff8e-1adf-4d58-8d84-d3d5f296a56e",
+      "Authorization": "Bearer ...EpKQM",
+      "user-agent": "node.js/v16.19.0",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 0,
+      "X-Contentful-Content-Type": "genre",
+      "Content-Length": 216
+    },
+    "method": "put",
+    "payloadData": "{\"sys\":{\"id\":\"early works to 1800.\",\"version\":0,\"contentType\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"ContentType\",\"id\":\"genre\"}}},\"fields\":{\"name\":{\"en-US\":\"Early works to 1800.\"},\"slug\":{\"en-US\":\"early works to 1800.\"}}}"
+  },
+  "requestId": "0c661f65-76bf-441d-8ebf-220aa7d2a8dd"
+}
+    at errorHandler (C:\Users\Yaryna\AppData\Roaming\nvm\v16.19.0\node_modules\contentful-cli\node_modules\contentful-migration\node_modules\contentful-management\dist\contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)BadRequest: {
+  "status": 400,
+  "statusText": "Bad Request",
+  "message": "Invalid resource id",
+  "details": {},
+  "request": {
+    "url": "spaces/lnflsi90e8vx/environments/dev/entries/early works to 1800./published",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/2.8.27; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.19.0; os Windows/v16.19.0;",
+      "CF-Sequence": "cc29ff8e-1adf-4d58-8d84-d3d5f296a56e",
+      "Authorization": "Bearer ...EpKQM",
+      "user-agent": "node.js/v16.19.0",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 1,
+      "X-Contentful-Content-Type": "genre"
+    },
+    "method": "put"
+  },
+  "requestId": "473c8505-8dba-4f85-8298-1a324af3461e"
+}
+    at errorHandler (C:\Users\Yaryna\AppData\Roaming\nvm\v16.19.0\node_modules\contentful-cli\node_modules\contentful-migration\node_modules\contentful-management\dist\contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)UnresolvedLinks: {
+  "status": 422,
+  "statusText": "Unprocessable Entity",
+  "message": "Validation error",
+  "details": {
+    "errors": [
+      {
+        "name": "notResolvable",
+        "link": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "early works to 1800."
+        },
+        "path": [
+          "fields",
+          "genre_ref",
+          "en-US"
+        ]
+      }
+    ]
+  },
+  "request": {
+    "url": "spaces/lnflsi90e8vx/environments/dev/entries/s5LCjYc3ueszRw3vJj0sN/published",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/2.8.27; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.19.0; os Windows/v16.19.0;",
+      "CF-Sequence": "cc29ff8e-1adf-4d58-8d84-d3d5f296a56e",
+      "Authorization": "Bearer ...EpKQM",
+      "user-agent": "node.js/v16.19.0",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 14,
+      "X-Contentful-Content-Type": "book"
+    },
+    "method": "put"
+  },
+  "requestId": "78ff0c2f-9223-4182-a6f5-3d922652369e"
+}
+    at errorHandler (C:\Users\Yaryna\AppData\Roaming\nvm\v16.19.0\node_modules\contentful-cli\node_modules\contentful-migration\node_modules\contentful-management\dist\contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

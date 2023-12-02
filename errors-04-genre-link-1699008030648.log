@@ -1,0 +1,88 @@
+BadRequest: {
+  "status": 400,
+  "statusText": "Bad Request",
+  "message": "Invalid resource id",
+  "details": {},
+  "request": {
+    "url": "spaces/lnflsi90e8vx/environments/dev/entries/fairy story",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/2.8.27; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.19.0; os Windows/v16.19.0;",
+      "CF-Sequence": "2372751f-2621-458f-b0ea-113853f16f90",
+      "Authorization": "Bearer ...EpKQM",
+      "user-agent": "node.js/v16.19.0",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 0,
+      "X-Contentful-Content-Type": "genre",
+      "Content-Length": 189
+    },
+    "method": "put",
+    "payloadData": "{\"sys\":{\"id\":\"fairy story\",\"version\":0,\"contentType\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"ContentType\",\"id\":\"genre\"}}},\"fields\":{\"name\":{\"en-US\":\"Fairy story\"},\"slug\":{\"en-US\":\"fairy story\"}}}"
+  },
+  "requestId": "b1298d9a-ecc5-4de3-94c9-01a9e894e26f"
+}
+    at errorHandler (C:\Users\Yaryna\AppData\Roaming\nvm\v16.19.0\node_modules\contentful-cli\node_modules\contentful-migration\node_modules\contentful-management\dist\contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)BadRequest: {
+  "status": 400,
+  "statusText": "Bad Request",
+  "message": "Invalid resource id",
+  "details": {},
+  "request": {
+    "url": "spaces/lnflsi90e8vx/environments/dev/entries/fairy story/published",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/2.8.27; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.19.0; os Windows/v16.19.0;",
+      "CF-Sequence": "2372751f-2621-458f-b0ea-113853f16f90",
+      "Authorization": "Bearer ...EpKQM",
+      "user-agent": "node.js/v16.19.0",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 1,
+      "X-Contentful-Content-Type": "genre"
+    },
+    "method": "put"
+  },
+  "requestId": "be3e959b-99db-4fa5-a5e0-d649789622ca"
+}
+    at errorHandler (C:\Users\Yaryna\AppData\Roaming\nvm\v16.19.0\node_modules\contentful-cli\node_modules\contentful-migration\node_modules\contentful-management\dist\contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)UnresolvedLinks: {
+  "status": 422,
+  "statusText": "Unprocessable Entity",
+  "message": "Validation error",
+  "details": {
+    "errors": [
+      {
+        "name": "notResolvable",
+        "link": {
+          "type": "Link",
+          "linkType": "Entry",
+          "id": "fairy story"
+        },
+        "path": [
+          "fields",
+          "genre_ref",
+          "en-US"
+        ]
+      }
+    ]
+  },
+  "request": {
+    "url": "spaces/lnflsi90e8vx/environments/dev/entries/7lXcKpQLlGrItiuuOACZ64/published",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/2.8.27; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.19.0; os Windows/v16.19.0;",
+      "CF-Sequence": "2372751f-2621-458f-b0ea-113853f16f90",
+      "Authorization": "Bearer ...EpKQM",
+      "user-agent": "node.js/v16.19.0",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 7,
+      "X-Contentful-Content-Type": "book"
+    },
+    "method": "put"
+  },
+  "requestId": "1cf01478-6108-4b95-bc8d-851dd23bcec9"
+}
+    at errorHandler (C:\Users\Yaryna\AppData\Roaming\nvm\v16.19.0\node_modules\contentful-cli\node_modules\contentful-migration\node_modules\contentful-management\dist\contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

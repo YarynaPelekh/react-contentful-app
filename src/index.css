@@ -58,7 +58,7 @@ ul {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.book {
+.book_section {
   grid-column: span 2;
   font-size: 1.2rem;
   background-color: #e8e8e8;
@@ -66,13 +66,16 @@ ul {
   border-radius: 0.5rem;
   box-shadow: 4px 4px 4px #ccc;
   margin-bottom: 2rem;
+}
+
+.book_section:nth-last-child(1):nth-child(odd) {
+  grid-column: 2 / span 2;
+}
+
+.book {
   display: flex;
   gap: 5%;
   align-items: center;
-}
-
-.book:nth-last-child(1):nth-child(odd) {
-  grid-column: 2 / span 2;
 }
 
 .leftSection {
@@ -81,17 +84,40 @@ ul {
 
 .rightSection {
   width: 60%;
-  /* align-self: center; */
 }
+
 .bookImage {
   width: 100%;
 }
+
 .textSection ul {
   padding: 0.2rem 4rem;
 }
 
 .textSection li {
   margin: 1rem 0;
+}
+
+.related {
+  padding-top: 1rem;
+}
+.relatedHeader {
+  margin: 0;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.booksRelated {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.smallBookImage {
+  width: 4rem;
+  height: 5rem;
 }
 
 .author {
@@ -111,4 +137,65 @@ ul {
 .title {
   font-weight: 500;
   list-style-type: none;
+}
+
+.genre {
+  font-size: 1rem;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(55, 55, 55, 0.2);
+  transition: 0.3s ease-in-out;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &.content {
+    padding: 4rem;
+    width: 40%;
+    height: 60%;
+    margin: 15% auto;
+    background-color: #eee;
+    border-radius: 1rem;
+    position: relative;
+    transition: inherit;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100px);
+    box-shadow: 0px 0px 8px gray;
+    overflow-y: hidden;
+  }
+
+  &.active &.content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(10);
+  }
+}
+
+.description {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+li {
+  list-style: none;
+}
+
+@media (min-width: 80rem) {
+  .App {
+    width: 60vw;
+  }
 }
