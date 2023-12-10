@@ -4,21 +4,24 @@ import "../index.css";
 import { Author } from "./Author";
 import { LibraryContext } from "./LibraryContext";
 
+import { Person } from "../types/GeneralTypes";
+type PersonExtnded = Person & { authorString: string };
+
 export const AuthorsList = () => {
   const books = useContext(LibraryContext);
 
-  const authors = Object.values(books.items)
+  const authors: Array<PersonExtnded> = Object.values(books.items)
     .map((book) => {
       return {
         ...book.author,
         authorString: book.author.firstName + book.author.lastName,
       };
     })
-    .reduce((accumulator, currentValue) => {
+    .reduce((accumulator: Array<PersonExtnded>, currentValue) => {
       if (
         accumulator &&
         !accumulator.find(
-          (author) =>
+          (author: Person) =>
             author.firstName === currentValue.firstName &&
             author.lastName === currentValue.lastName
         )
@@ -26,8 +29,6 @@ export const AuthorsList = () => {
         return [...accumulator, { ...currentValue }];
       return [...accumulator];
     }, []);
-
-  // console.log("Authors list", authors);
 
   return (
     <div className="list-container">

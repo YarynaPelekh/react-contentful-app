@@ -9,31 +9,52 @@ import "../index.css";
 import { Description } from "./Description";
 import { RelatedBooks } from "./RelatedBooks";
 
-export const Book = ({ author, title, photo, genre, id, showRelated }) => {
-  const [showDescription, setShowDescription] = useState(false);
-  const [relatedIDs, setRelatedIDs] = useState([]);
+import { Person, BookType, Photo } from "../types/GeneralTypes";
 
-  const client = contentful.createClient({
-    space: "lnflsi90e8vx", // "<space_id>",
-    environment: "master", //"<environment_id>", // defaults to 'master' if not set
-    accessToken: "ER9ZMhqKlvvQPviTrsvEQw1_7GsZF32sUYivrOCFMkQ", //"<content_delivery_api_key>",
-  });
+const client = contentful.createClient({
+  space: "lnflsi90e8vx", // "<space_id>",
+  environment: "master", //"<environment_id>", // defaults to 'master' if not set
+  accessToken: "ER9ZMhqKlvvQPviTrsvEQw1_7GsZF32sUYivrOCFMkQ", //"<content_delivery_api_key>",
+});
+
+export const Book: React.FunctionComponent<{
+  author: Person;
+  title: string;
+  photo: Photo;
+  genre: string;
+  id: string;
+  showRelated: boolean;
+}> = ({ author, title, photo, genre, id, showRelated }) => {
+  const [showDescription, setShowDescription] = useState(false);
+  const [relatedIDs, setRelatedIDs] = useState<string[]>([]);
 
   useEffect(() => {
+    function convertData(data: any): BookType[] {
+      const bookArray: BookType[] = data.map((item: any) => {
+        return {
+          title: item,
+          author: item,
+          sys: { id: item.sys.id },
+        };
+      });
+      return bookArray as BookType[];
+    }
+
     const handleGetRelated = () => {
       client
         .getEntry(id)
         .then((data) => {
-          setRelatedIDs(
-            data.fields.relatedBooks?.map((book) => book.sys.id) || []
-          );
+          const dataArr: BookType[] = convertData(data.fields.relatedBooks);
+
+          setRelatedIDs(dataArr.map((book: BookType) => book.sys.id));
         })
         .catch((err) => {
           console.log(err);
         });
     };
+
     if (showRelated) handleGetRelated();
-  }, [showRelated, client, id]);
+  }, [showRelated, id]);
 
   return (
     <div className="book_section">
@@ -58,8 +79,8 @@ export const Book = ({ author, title, photo, genre, id, showRelated }) => {
         {showDescription && (
           <Description
             id={id}
-            handleClose={(e) => {
-              e.stopPropagation();
+            handleClose={(event: React.MouseEvent<HTMLElement, MouseEvent>) => {
+              event.stopPropagation();
               setShowDescription(false);
             }}
           />

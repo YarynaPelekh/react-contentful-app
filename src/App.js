@@ -3,7 +3,8 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import { Header } from "./components/Header";
+// import { Header } from "./components/Header";
+import {Header} from './components/Header'
 import { Navigation } from "./components/Navigation";
 import { Home } from "./components/Home";
 import { AuthorsList } from "./components/AuthorsList";
